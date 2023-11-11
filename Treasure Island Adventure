@@ -1,0 +1,27 @@
+class TreasureIslandAdventure:
+def _init_(self):
+self.locations = {
+"beach": "You are on a sandy beach. There are palm trees and a campsite nearby.",
+"forest": "You are in a dense forest. The trees are tall and the air is cool.",
+"cave": "You are at the entrance of a dark cave. It's chilly and damp inside.",
+"mountain": "You are at the foot of a steep mountain. The peak disappears into the clouds."
+}
+self.treasure_location = "cave"
+
+def play(self):
+print("Welcome to Treasure Island Adventure!")
+current_location = "beach"
+print(self.locations[current_location])
+
+while current_location != self.treasure_location:
+direction = input("Enter your next move (forest, cave, mountain): ").lower()
+if direction in self.locations.keys():
+current_location = direction
+print(self.locations[current_location])
+else:
+print("That's not a valid direction. Try again!")
+
+print("Congratulations! You've found the hidden treasure in the cave.")
+
+game = TreasureIslandAdventure()
+game.play()
