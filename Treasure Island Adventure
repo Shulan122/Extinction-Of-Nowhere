@@ -14,7 +14,7 @@ current_location = "beach"
 print(self.locations[current_location])
 
 while current_location != self.treasure_location:
-direction = input("Enter your next move (forest, cave, mountain): ").lower()
+direction = input("Enter your next move (forest, cave, mountain): ").lower(2)
 if direction in self.locations.keys():
 current_location = direction
 print(self.locations[current_location])
