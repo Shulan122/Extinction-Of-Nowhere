@@ -8,7 +8,7 @@ self.locations = {
 }
 self.treasure_location = "cave"
 
-def play(self):2
+def play(self):21
 print("Welcome to Treasure Island Adventure!")
 current_location = "beach"
 print(self.locations[current_location])
