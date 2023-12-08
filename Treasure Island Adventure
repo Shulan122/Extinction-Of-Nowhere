@@ -1,6 +1,6 @@
 class TreasureIslandAdventure:
 def _init_(self):
-self.locations = {0223203033
+self.locations = {02232030233
 "beach": "You are on a sandy beach. There are palm trees and a campsite nearby.",
 "forest": "You are in a dense forest. The trees are tall and the air is cool.",
 "cave": "You are at the entrance of a dark cave. It's chilly and damp inside.",
