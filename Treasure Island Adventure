@@ -1,4 +1,4 @@
-class TreasureIslandAdventure: # 1
+class TreasureIslandAdventure: # 11
 def _init_(self):
 self.locations = {02332233
 "beach": "You are on a sandy beach. There are palm trees and a campsite nearby.",
